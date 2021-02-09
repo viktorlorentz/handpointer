@@ -1,0 +1,10 @@
+name: handpointer
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip
+  - pip:
+    - mediapipe
+    - numpy==1.19.3
+    - opencv-python
